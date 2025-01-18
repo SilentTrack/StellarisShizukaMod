@@ -1,0 +1,139 @@
+# Purge Negative traits
+shizuka_purge_negative_trait = {
+	owned_planets_only = yes	#default: no
+	sound = event_administrative_work	#this is a sound
+	icon = decision_resources	#icon found in gfx/interface/icons/decisions/
+	resources = {
+		category = decisions
+		cost = {
+			energy = 100
+		}
+	}
+	potential = {
+		owner = {
+			is_ai = no
+		}
+	}
+	allow = {
+		owner = {
+			is_ai = no
+		}
+	}
+	effect = {
+		hidden_effect = {
+			owner = {
+				country_event = {
+					id = country.1984
+				}
+			}
+		}
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+# Add Resources Traits
+shizuka_add_resources_trait = {
+	owned_planets_only = yes	#default: no
+	sound = event_administrative_work	#this is a sound
+	icon = decision_resources	#icon found in gfx/interface/icons/decisions/
+	resources = {
+		category = decisions
+		cost = {
+			energy = 100
+		}
+	}
+	potential = {
+		owner = {
+			is_ai = no
+		}
+	}
+	allow = {
+		owner = {
+			is_ai = no
+		}
+	}
+	effect = {
+		hidden_effect = {
+			owner = {
+				country_event = {
+					id = country.1986
+				}
+			}
+		}
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+# Subject Loyalty
+shizuka_subject = {
+	owned_planets_only = yes	#default: no
+	sound = event_administrative_work	#this is a sound
+	icon = decision_resources	#icon found in gfx/interface/icons/decisions/
+	resources = {
+		category = decisions
+		cost = {
+			energy = 100
+		}
+	}
+	potential = {
+		owner = {
+			is_ai = no
+		}
+	}
+	allow = {
+		owner = {
+			is_ai = no
+		}
+	}
+	effect = {
+		hidden_effect = {
+			owner = {
+				country_event = {
+					id = country.1985
+				}
+			}
+		}
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+# Add Destiny Traits
+shizuka_add_destiny_trait = {
+	owned_planets_only = yes	#default: no
+	sound = event_administrative_work	#this is a sound
+	icon = decision_resources	#icon found in gfx/interface/icons/decisions/
+	resources = {
+		category = decisions
+		cost = {
+			energy = 100
+		}
+	}
+	potential = {
+		owner = {
+			is_ai = no
+		}
+	}
+	allow = {
+		owner = {
+			is_ai = no
+		}
+	}
+	effect = {
+		hidden_effect = {
+			owner = {
+				country_event = {
+					id = country.1987
+				}
+			}
+		}
+	}
+	ai_weight = {
+		weight = 0
+	}
+}

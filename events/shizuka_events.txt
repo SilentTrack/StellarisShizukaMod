@@ -1,0 +1,110 @@
+# Purge Negative traits
+country_event = {
+	id = country.1984
+	title = "country.257.name"
+	desc = "country.257.desc"
+	picture = GFX_evt_throne_room
+	show_sound = event_ship_bridge
+	is_triggered_only = yes
+	option = {
+		name = "country.257.a"
+		every_owned_leader = {
+			remove_trait = all_negative
+		}
+
+		add_research_option = tech_psi_jump_drive_1
+		add_research_option = tech_psionic_barrier
+		add_research_option = tech_psionic_shield
+		add_research_option = tech_dark_matter_deflector
+		add_research_option = tech_dark_matter_power_core
+		add_research_option = tech_dark_matter_propulsion
+	}
+}
+
+# Add Resources Traits
+country_event = {
+	id = country.1986
+	title = "country.257.name"
+	desc = "country.257.desc"
+	picture = GFX_evt_throne_room
+	show_sound = event_ship_bridge
+	is_triggered_only = yes
+	option = {
+		name = "country.257.a"
+		every_owned_leader = {
+			add_trait_no_notify = leader_trait_entrepreneur_2
+			add_trait_no_notify = leader_trait_scrapper_2
+			add_trait_no_notify = leader_trait_venerated_2
+		}
+	}
+}
+
+# Subject Loyalty
+country_event = {
+	id = country.1985
+	title = "country.257.name"
+	desc = "country.257.desc"
+	picture = GFX_evt_throne_room
+	show_sound = event_ship_bridge
+	is_triggered_only = yes
+	immediate = {
+		refresh_subject_count_loyalty_penalty = yes
+	}
+	option = {
+		name = "country.257.a"
+	}
+}
+
+# Add Destiny Traits
+country_event = {
+	id = country.1987
+	title = "country.257.name"
+	desc = "country.257.desc"
+	picture = GFX_evt_throne_room
+	show_sound = event_ship_bridge
+	is_triggered_only = yes
+	option = {
+		name = "country.257.a"
+		every_owned_leader = {
+			if = {
+				limit = {
+					leader_class = scientist
+				}
+				add_trait_no_notify = leader_trait_great_researcher
+				add_trait_no_notify = leader_trait_xeno_cataloger
+				add_trait_no_notify = leader_trait_brilliant_shipwright
+				add_trait_no_notify = leader_trait_truth_seeker
+			}
+			else_if = {
+				limit = {
+					leader_class = governor
+				}
+				add_trait_no_notify = leader_trait_shipwright_2
+				add_trait_no_notify = leader_trait_master_diplomat
+				add_trait_no_notify = leader_trait_retired_fleet_officer_2
+				add_trait_no_notify = trait_ruler_fertility_preacher_2
+				add_trait_no_notify = leader_trait_shipwright
+				add_trait_no_notify = leader_trait_retired_fleet_officer
+				add_trait_no_notify = trait_ruler_fertility_preacher
+			}
+			else_if = {
+				limit = {
+					leader_class = admiral
+				}
+				add_trait_no_notify = trait_ruler_warlike_2
+				add_trait_no_notify = leader_trait_military_overseer
+				add_trait_no_notify = leader_trait_skirmisher_2
+				add_trait_no_notify = leader_trait_armorer
+				add_trait_no_notify = leader_trait_maven_of_war
+				add_trait_no_notify = trait_ruler_warlike
+				add_trait_no_notify = leader_trait_skirmisher
+			}
+			else_if = {
+				limit = {
+					is_ruler = yes
+				}
+				set_age = 15
+			}
+		}
+	}
+}
