@@ -1,0 +1,200 @@
+@EdictPerpetual = -1
+march_to_the_galaxy = {
+	length = @EdictPerpetual
+	icon = "GFX_edict_type_policy"
+	resources = {
+		category = edicts
+		cost = {
+			unity = 0
+			multiplier = value:edict_size_effect
+		}
+		upkeep = {
+			unity = 10
+			multiplier = value:edict_size_effect
+		}
+	}
+	modifier = {
+		# ship_anomaly_research_speed_mult = 1
+		# science_ship_survey_speed = 1
+		ship_anomaly_generation_chance_mult = 100
+		# anomaly_generation_chance = 1
+		# shipclass_science_ship_disengage_mult = 5
+		# station_researchers_produces_mult = 10
+		# starbase_constructions_physics_research_produces_mult = 10
+		# starbase_constructions_society_research_produces_mult = 10
+		# starbase_constructions_engineering_research_produces_mult = 10
+		country_unity_produces_mult = 1
+		country_physics_research_produces_mult = 2
+		country_engineering_research_produces_mult = 2
+		country_society_research_produces_mult = 2
+		# num_tech_alternatives_add = 2
+		# planet_max_buildings_add = 8		# ???
+		# planet_non_artificial_max_districts_add = 15
+		planet_building_build_speed_mult = 24
+		starbase_building_build_speed_mult = 10
+		starbase_module_build_speed_mult = 10
+		starbase_upgrade_speed_mult = 10
+		# starbase_shipyard_build_speed_mult = 0.25
+		command_limit_add = 500
+		# envoys_add = 10
+		# local_trade_protection_add = 1000
+		# starbase_trade_collection_range_add = 6
+		# country_trade_fee = -0.10
+		negative_traits_country = -10
+		# pop_government_ethic_attraction = 1
+		pop_ethics_shift_speed_mult = 10
+		terraform_speed_mult = 10
+		ship_speed_mult = 1
+		planet_clear_blocker_speed_mult = 24
+		ship_sensor_range_add = 10
+		# ship_hyperlane_range_add = 10
+		# For start up only
+		ship_windup_mult = -0.5
+		ship_winddown_mult = -0.5
+		ship_jumpdrive_cooldown_mult = -0.9
+		ship_ftl_jumpdrive_range_mult = 10
+		fleet_mia_time_mult = -0.5
+		catapult_spread_mult = 1
+		catapult_range_mult = 10
+		# ship_disengage_opportunities_add = 5
+		# ship_emergency_ftl_mult = -0.5
+		# ship_disengage_chance_mult = 5
+		megastructure_build_speed_mult = 10
+		country_megastructure_build_cap_add = 100
+		empire_size_systems_mult = -0.8
+		empire_size_colonies_mult = -0.8
+		empire_size_pops_mult = -0.8
+		# country_official_cap_add = 7
+		# country_commander_cap_add = 7
+		# country_scientist_cap_add = 7
+		pop_demotion_time_mult = -0.95
+		BIOLOGICAL_species_trait_points_add = 10
+		BIOLOGICAL_species_trait_picks_add = 10
+		country_resource_max_add = 100000
+		# first_contact_speed_mult = 1
+		first_contact_defense_add = 10
+		intel_encryption_add = 10
+		intel_decryption_add = 10
+		ship_cloaking_strength_add = 3
+		council_agenda_finishing_effect_duration_mult = 3
+		add_base_country_intel = 50
+		country_starbase_influence_cost_distance_mult = -0.8
+		country_capture_amount_add = 10
+		pop_growth_speed = 0.30
+		colony_start_num_pops_add = 1
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+leader_exp_ascension = {
+	length = @EdictPerpetual
+	icon = "GFX_edict_type_policy"
+	resources = {
+		category = edicts
+		cost = {
+			unity = 0
+			multiplier = value:edict_size_effect
+		}
+		upkeep = {
+			unity = 10
+			multiplier = value:edict_size_effect
+		}
+	}
+	modifier = {
+		country_leader_pool_size = 7
+		species_leader_exp_gain = 100
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+leader_traits_ascension_1 = {
+	length = @EdictPerpetual
+	icon = "GFX_edict_type_policy"
+	resources = {
+		category = edicts
+		cost = {
+			unity = 0
+			multiplier = value:edict_size_effect
+		}
+		upkeep = {
+			unity = 10
+			multiplier = value:edict_size_effect
+		}
+	}
+	modifier = {
+		leader_trait_selection_options_add = 5
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+leader_traits_ascension_2 = {
+	length = @EdictPerpetual
+	icon = "GFX_edict_type_policy"
+	resources = {
+		category = edicts
+		cost = {
+			unity = 0
+			multiplier = value:edict_size_effect
+		}
+		upkeep = {
+			unity = 10
+			multiplier = value:edict_size_effect
+		}
+	}
+	modifier = {
+		leader_trait_selection_options_add = 5
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+leader_traits_ascension_3 = {
+	length = @EdictPerpetual
+	icon = "GFX_edict_type_policy"
+	resources = {
+		category = edicts
+		cost = {
+			unity = 0
+			multiplier = value:edict_size_effect
+		}
+		upkeep = {
+			unity = 10
+			multiplier = value:edict_size_effect
+		}
+	}
+	modifier = {
+		leader_trait_selection_options_add = 5
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+leader_traits_ascension_4 = {
+	length = @EdictPerpetual
+	icon = "GFX_edict_type_policy"
+	resources = {
+		category = edicts
+		cost = {
+			unity = 0
+			multiplier = value:edict_size_effect
+		}
+		upkeep = {
+			unity = 10
+			multiplier = value:edict_size_effect
+		}
+	}
+	modifier = {
+		leader_trait_selection_options_add = 5
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
