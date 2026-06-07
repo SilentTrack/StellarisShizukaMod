@@ -1,6 +1,8 @@
+namespace = shizuka
+
 # Purge Negative traits
 country_event = {
-	id = country.1984
+	id = shizuka.1984
 	title = "country.257.name"
 	desc = "country.257.desc"
 	picture = GFX_evt_throne_room
@@ -16,7 +18,7 @@ country_event = {
 
 # Unlock research option
 country_event = {
-	id = country.1988
+	id = shizuka.1988
 	title = "country.257.name"
 	desc = "country.257.desc"
 	picture = GFX_evt_throne_room
@@ -36,7 +38,7 @@ country_event = {
 
 # Add Resources Traits
 country_event = {
-	id = country.1986
+	id = shizuka.1986
 	title = "country.257.name"
 	desc = "country.257.desc"
 	picture = GFX_evt_throne_room
@@ -54,7 +56,7 @@ country_event = {
 
 # Subject Loyalty
 country_event = {
-	id = country.1985
+	id = shizuka.1985
 	title = "country.257.name"
 	desc = "country.257.desc"
 	picture = GFX_evt_throne_room
@@ -70,7 +72,7 @@ country_event = {
 
 # Add Destiny Traits
 country_event = {
-	id = country.1987
+	id = shizuka.1987
 	title = "country.257.name"
 	desc = "country.257.desc"
 	picture = GFX_evt_throne_room
@@ -109,22 +111,22 @@ country_event = {
 			# 	add_trait_no_notify = trait_ruler_warlike
 			# 	add_trait_no_notify = leader_trait_skirmisher
 			# }
-			else_if = {
-				limit = {
-					leader_class = scientist
-				}
-				# add_trait_no_notify = leader_trait_great_researcher
-				# add_trait_no_notify = leader_trait_xeno_cataloger
-				# add_trait_no_notify = leader_trait_brilliant_shipwright
-				# add_trait_no_notify = leader_trait_truth_seeker
-			}
+			# else_if = {
+			# 	limit = {
+			# 		leader_class = scientist
+			# 	}
+			# 	add_trait_no_notify = leader_trait_great_researcher
+			# 	add_trait_no_notify = leader_trait_xeno_cataloger
+			# 	add_trait_no_notify = leader_trait_brilliant_shipwright
+			# 	add_trait_no_notify = leader_trait_truth_seeker
+			# }
 		}
 	}
 }
 
 # Add Random Traits
 country_event = {
-	id = country.1989
+	id = shizuka.1989
 	title = "country.257.name"
 	desc = "country.257.desc"
 	picture = GFX_evt_throne_room

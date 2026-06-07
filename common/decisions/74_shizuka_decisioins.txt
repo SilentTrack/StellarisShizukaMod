@@ -23,7 +23,7 @@ shizuka_purge_negative_trait = {
 		hidden_effect = {
 			owner = {
 				country_event = {
-					id = country.1984
+					id = shizuka.1984
 				}
 			}
 		}
@@ -58,7 +58,7 @@ shizuka_unlock_research = {
 		hidden_effect = {
 			owner = {
 				country_event = {
-					id = country.1988
+					id = shizuka.1988
 				}
 			}
 		}
@@ -93,7 +93,7 @@ shizuka_add_resources_trait = {
 		hidden_effect = {
 			owner = {
 				country_event = {
-					id = country.1986
+					id = shizuka.1986
 				}
 			}
 		}
@@ -128,7 +128,7 @@ shizuka_subject = {
 		hidden_effect = {
 			owner = {
 				country_event = {
-					id = country.1985
+					id = shizuka.1985
 				}
 			}
 		}
@@ -163,7 +163,7 @@ shizuka_add_destiny_trait = {
 		hidden_effect = {
 			owner = {
 				country_event = {
-					id = country.1987
+					id = shizuka.1987
 				}
 			}
 		}
@@ -198,7 +198,7 @@ shizuka_add_random_trait = {
 		hidden_effect = {
 			owner = {
 				country_event = {
-					id = country.1989
+					id = shizuka.1989
 				}
 			}
 		}
